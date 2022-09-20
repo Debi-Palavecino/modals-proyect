@@ -1,0 +1,153 @@
+.news-section{
+    background-color: rgb(104, 226, 120)}
+
+.modal-box-container{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+.card{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 15px 15px;
+}
+.cards-modal{
+    width: 350px;
+    height: 360px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px rgb(151, 146, 146) solid;
+    text-align: center;
+    margin: 15px;
+}
+.cards-modal:hover{
+    width: 360px;
+    height: 370px;
+    box-shadow:  0.8em 0.8em 15px rgb(136, 132, 132,0.75);
+
+}
+.imagen-card{
+    width:330px;
+    height: 250px;
+}
+.imagen-card img {
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.modal-boxes{
+    width: 100%;
+    background-color: #888;
+}
+
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+}
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+}
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+}
+  
+  /* Modal Content/Box */
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 90%; /* Could be more or less, depending on screen size */
+    text-align: center;
+}
+  
+  /* The Close Button */
+.close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: end;
+}
+.close2{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: end;
+}
+.close3{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: end;
+}
+  
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.seccion-video{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: lightgreen;
+    display: none;
+    align-items: center;
+
+}
+span{
+    cursor: default;
+}
+.button-novedades{
+    width: 250px;
+    height: 3em;
+    border: 1px solid rgb(18, 100, 36);
+    border-radius: 10px;
+    background-color: rgba(88, 202, 88, 0.788);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: whitesmoke;
+}
